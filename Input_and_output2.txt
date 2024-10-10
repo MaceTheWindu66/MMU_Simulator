@@ -1,0 +1,25 @@
+Instruction? 0,map,0,0
+Put page table for PID 0 into physical frame 0.
+Mapped virtual address 0 (page 0) into physical frame 1.
+Instruction? 0,store,7,255
+Error: virtual address 7 does not have write permissions.
+Instruction? 0,map,0,1
+Updating permissions of virtual address 0
+Instruction? 0,store,7,255
+Stored value 255 at virtual address 7 (physical address 23)
+Instruction? 0,map,10,1
+Error: Virtual page already mapped into physical frame 1 with the rwBit of 1.
+Instruction? 0,map,16,0,
+Mapped virtual address 16 (page 1) into physical frame 2.
+Instruction? 0,map,32,0
+Mapped virtual address 32 (page 2) into physical frame 3.
+Instruction? 1,map,0,0
+Swapped Frame 1 to disk at offset 0.
+Put page table for PID 1 into physical frame 1.
+Swapped Frame 2 to disk at offset 16.
+Mapped virtual address 0 (page 0) into physical frame 2.
+Instruction? 0,load,7,NA
+Swapped Frame 3 to disk at offset 32.
+Swapped disk frame 16 into physical frame 3.
+The value 0 was found at virtual address 7 (physical address: 55)
+Instruction? ^C
