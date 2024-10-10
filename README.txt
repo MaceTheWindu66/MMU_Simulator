@@ -1,7 +1,7 @@
 Maddux Berry
 Grace Robinson
 
-CS 3013 Project 3: Memory Management Unit
+Memory Management Unit Project
 
 How to run:
 	Run the 'make' command.
@@ -40,7 +40,7 @@ How it works:
 	swapped out), it will swap the frame with the virtual address back into the physical memory, albeit (more than likely) in a different frame. It
 	then prints this value. Other than that, as long as the PTE/address is valid, the value stored at the virtual AD will be printed to the output.
 
-This was the output we recieved going off of the sample test/output from the instructassist assignment post. :)
+Here is a sample output:
 
 Instruction? 0,map,0,0
 Put page table for PID 0 into physical frame 0.
