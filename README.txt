@@ -22,7 +22,7 @@ you to store values at virtual addresses into physical memory. Load then outputs
 
 In a case where the memory is full, the program will evict pages or swap pages in/out to/from the disk. There is a known bug in our code where the values
 at the virtual/physical address don't print out properly specifically after a swap happens. This bug only occurs after being swapped back into physmem from
-disk. Was not able to hash out this bug before the due date. However, swaps out to the disk work, and physical/virtual address mappings are updated accordingly.
+disk. However, swaps out to the disk work, and physical/virtual address mappings are updated accordingly.
 
 To test our code, we used the sample output given to us in the instructions for the project. If you follow these instructions, the output should match for
 the most part to the expected values before the last line of instructions.
